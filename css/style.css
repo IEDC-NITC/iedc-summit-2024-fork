@@ -453,6 +453,10 @@ div.is-inview {
   transform: translateX(0);
   opacity: 1;
 }
+body {
+  margin: 0;
+  padding: 0;
+}
 
 /* PRELOADER */
 body.page-loaded .preloader {
@@ -472,6 +476,7 @@ body.page-loaded .preloader svg path {
   -ms-animation-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86);
   animation-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86);
 }
+
 
 .preloader {
   width: 100%;
