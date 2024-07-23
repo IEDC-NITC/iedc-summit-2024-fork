@@ -501,7 +501,7 @@ body.page-loaded .preloader svg path {
 
 .preloader .inner {
   display: inline-block;
-  position: absolute;
+  position: relative;
   left: 50%;
   top: 50%;
   margin: 0;
@@ -4232,7 +4232,7 @@ only screen and (max-device-width: 767px) {
   .container-xxl {
     padding: 0 25px;
   }
-
+  
   .search-box .form form input[type=submit] {
     width: 100%;
   }
